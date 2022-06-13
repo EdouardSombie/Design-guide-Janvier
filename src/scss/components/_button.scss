@@ -1,0 +1,29 @@
+.button{
+	padding: 1em;
+	display: inline-block;
+	background-color: $grey;
+	color: $white;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover{
+		background-color: lighten($grey, 10%);
+	}
+
+	&--success{
+		background-color: $green;
+		&:hover{
+			background-color: lighten($green, 10%);
+		}
+	}
+
+	&--alert{
+		background-color: $red;
+		&:hover{
+			background-color: lighten($red, 10%);
+		}
+	}
+
+}

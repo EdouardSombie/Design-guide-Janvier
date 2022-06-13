@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Design Guide</title>
+		<link rel="stylesheet" type="text/css" href="dist/main.css">
+		<style type="text/css">
+			section{
+				margin-bottom: 2rem;
+			}
+		</style>
+		<script type="text/javascript" src="dist/main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<section>
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+				<h2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+			<section>
+				<button class="button">Normal</button>
+				<button class="button button--success">Succès</button>
+				<button class="button button--alert">Alerte</button>
+			</section>
+			<section>
+				<div class="banner" style="background-image: url('images/fond.jpg')"></div>
+			</section>
+			<section>
+				<div class="banner banner--text" style="background-image: url('images/fond.jpg')">
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div id="slider">
+					<img src="images/image1.jpg" alt="Texte 1">
+					<img src="images/image2.jpg" alt="Texte 2">
+					<img src="images/image3.jpg" alt="Texte 3">
+					<img src="images/image4.jpg" alt="Texte 4">
+					<img src="images/image5.jpg" alt="Texte 5">
+					<img src="images/image6.jpg" alt="Texte 6">
+					...
+				</div>
+				<script type="text/javascript">
+					sliderInit($('#slider'));
+				</script>
+			</section>
+		</div>
+	</body>
+</html>
+
+
+

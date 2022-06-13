@@ -1,0 +1,34 @@
+// Valeurs par défaut du composant
+$slide-width: 576px;
+$slide-height: 384px;
+
+.slider{
+	width: $slide-width;
+	height: $slide-height;
+	overflow: hidden;
+	position: relative;
+
+	& .slides-container{
+		display: flex;
+		height: 100%;
+		position: relative;
+		transition: left 1s;
+		left: 0;
+	}
+
+	& .slide{
+		width: $slide-width;
+		flex-shrink: 0;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	& nav{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+}

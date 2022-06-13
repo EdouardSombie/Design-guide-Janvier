@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: $light-grey;
+	font-family: $font1;
+}
+
+h1{
+	font-size: rem(24);
+	font-family: $font2;
+}
+
+h2{
+	font-size: rem(16);
+	font-family: $font2;
+}
+
+p{
+	line-height: 1.4;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
