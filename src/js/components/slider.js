@@ -8,11 +8,11 @@ function sliderInit(element){
 		container.append($(this).addClass('slide'));
 	})
 
-	var btnNext = $('<button>Next</button>').click(function(e){
+	var btnNext = $('<button class="next"></button>').click(function(e){
 		next(e.target);
 	});
 
-	var btnPrev = $('<button>Prev</button>').click(function(e){
+	var btnPrev = $('<button class="prev"></button>').click(function(e){
 		prev(e.target);
 	});
 
